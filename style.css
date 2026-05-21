@@ -73,3 +73,18 @@ html, body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 70px;
 }
+.video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.para3{
+    cursor: pointer;
+}       
+.text2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

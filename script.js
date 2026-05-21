@@ -60,3 +60,13 @@ para2.addEventListener('click', () => {
         flag = 1;
     }
 });
+video.addEventListener('mousemove', () => {
+    video.style.transform = "scale(1.1)";
+    video.style.transition = "0.5s";
+});
+video.addEventListener('mouseout', () => {
+    video.style.transform = "scale(1)";
+    video.style.transition = "0.5s";
+});
+
+
